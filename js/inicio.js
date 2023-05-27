@@ -166,6 +166,27 @@ sr.reveal('.respetuosamente', {
 		
 
 	});
+sr.reveal('.lugar', {
+		duration: 1500, //tiempo
+		origin: 'right', //origen
+		distance: '30px', //distancia
+		
+
+	});
+sr.reveal('.hora', {
+		duration: 1500, //tiempo
+		origin: 'left', //origen
+		distance: '30px', //distancia
+		
+
+	});
+sr.reveal('.textodondeycuando', {
+		duration: 1500, //tiempo
+		origin: 'bottom', //origen
+		distance: '100px', //distancia
+		
+
+	});
 sr.reveal('.lluvia1', {
 		duration: 1500, //tiempo
 		origin: 'right', //origen
@@ -215,6 +236,15 @@ sr.reveal('.Tituloasistenciaespero', {
 		reset:1000
 
 	});
+sr.reveal('.icono', {
+		duration: 1500, //tiempo
+		//delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
 sr.reveal('.porqueformas', {
 		duration: 1500, //tiempo
 		//delay:700,
